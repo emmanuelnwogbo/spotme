@@ -32,7 +32,7 @@ class Locations extends StatelessWidget {
         itemBuilder: (BuildContext context, int index) {
           return new ListTile(
             contentPadding: EdgeInsets.all(7.0),
-            leading: Icon(Icons.forward, color: Colors.black26),
+            leading: Icon(Icons.location_on, color: Colors.green),
             title: Align(
               child:  Text(locations[index], style: TextStyle(color: Colors.black)),
               alignment: Alignment(-1.2, 0),

@@ -25,8 +25,10 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.green[800],
-          title: Text('Spotme', style: TextStyle(color: Colors.white ),),
+          backgroundColor: Colors.white,
+          title: Text('Home', style: TextStyle(color: Colors.green[800] ),),
+            iconTheme: new IconThemeData(color: Colors.green[800]),
+            elevation: 0.8,
         ),
         drawer: Theme(
             data: Theme.of(context).copyWith(
